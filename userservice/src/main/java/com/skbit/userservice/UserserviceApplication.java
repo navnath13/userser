@@ -11,7 +11,7 @@ public class UserserviceApplication {
 	
 	@GetMapping("/")
     public String getMessage() {
-    	return "this is project is deployed ond server";
+    	return "nice job you can do it try again";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(UserserviceApplication.class, args);
