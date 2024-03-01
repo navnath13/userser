@@ -1,0 +1,14 @@
+version: 02
+phases:
+  build:
+    commands:
+      -echo Entered the build phasse...
+      -mvn clean package
+    post_build:
+      commands:
+       -echo Build completed successfully
+artifacts:
+  files:
+    - target/User-Service.jar
+  discard-paths: yes
+  

@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "3306/microserviceUser",
+  "type": "java.lang.String",
+  "description": "A description for '3306/microserviceUser'"
+}]}
