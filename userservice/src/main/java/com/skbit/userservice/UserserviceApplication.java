@@ -11,7 +11,7 @@ public class UserserviceApplication {
 	
 	@GetMapping("/")
     public String getMessage() {
-    	return "nice job you can do it try again";
+    	return "nice job you can do it ";
     }
 	public static void main(String[] args) {
 		SpringApplication.run(UserserviceApplication.class, args);
