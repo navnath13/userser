@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/users")
 public class UserserviceApplication {
 	
-	@GetMapping("/")
-    public String getMessage() {
-    	return "nice job you cant ";
-    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(UserserviceApplication.class, args);
 	}
