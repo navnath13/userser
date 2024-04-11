@@ -2,17 +2,16 @@ package com.skbit.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+
 
 @SpringBootApplication
-@RestController("/users")
+
+
 public class UserserviceApplication {
 	
-	@GetMapping("/")
-    public String getMessage() {
-    	return "nice job you cant ";
-    }
+
 	public static void main(String[] args) {
 		SpringApplication.run(UserserviceApplication.class, args);
 	}
