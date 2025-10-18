@@ -12,6 +12,8 @@ spec:
       labels:
         app: userservice
     spec:
+      imagePullSecrets:
+        - name: ghcr-secret
       containers:
         - name: userservice
           image: ghcr.io/navnath13/userservice:latest
@@ -23,6 +25,4 @@ spec:
             - name: SPRING_DATASOURCE_USERNAME
               value: root
             - name: SPRING_DATASOURCE_PASSWORD
-              value: 
-      imagePullSecrets:
-        - name: ghcr-secret
+              value: ""
