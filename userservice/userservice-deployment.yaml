@@ -23,6 +23,6 @@ spec:
             - name: SPRING_DATASOURCE_USERNAME
               value: root
             - name: SPRING_DATASOURCE_PASSWORD
-              value: yourpassword
+              value: 
       imagePullSecrets:
         - name: ghcr-secret
